@@ -1,1 +1,5 @@
-font-family: 'Arima', cursive;
+/* font-family: "Arima", cursive; */
+.header {
+  background-image: url(images/donation11.jpg);
+  width: 100%;
+}
