@@ -1,6 +1,7 @@
 /* font-family: "Arima", cursive; */
 * {
   margin: 0px;
+  /* Header section */
 }
 body .header {
   background-image: url(images/donation13.jpg);
@@ -22,7 +23,7 @@ body .header {
   padding: 0px 250px;
   margin-bottom: 20px;
 }
-.header button {
+.header .btn {
   background-color: coral;
   border: none;
   padding: 10px;
@@ -31,6 +32,8 @@ body .header {
   margin: auto;
   display: flex;
 }
+
+/* Donationn section */
 .donate h1 {
   margin-top: 50px;
   text-align: center;
@@ -41,4 +44,42 @@ body .header {
   padding: 0px 250px;
   margin-bottom: 20px;
   color: rgb(7, 7, 7);
+}
+#button {
+  text-align: center;
+}
+.donate button {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(250, 188, 166);
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.donate .active-button {
+  border: 5px solid #f71f3c;
+}
+.donate input {
+  text-align: center;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+hr {
+  margin: 0px 290px 30px 290px;
+}
+
+.donate .btn {
+  background-color: coral;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  display: flex;
 }
