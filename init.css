@@ -119,3 +119,8 @@ hr {
   margin-right: 10px;
   width: 400px;
 }
+
+/* update section */
+.updates h1 ,p {
+  text-align: center;
+}
