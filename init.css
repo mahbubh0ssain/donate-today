@@ -121,6 +121,27 @@ hr {
 }
 
 /* update section */
-.updates h1 ,p {
+.updates h1 {
   text-align: center;
+}
+.updates p {
+  padding: 0px 300px;
+}
+.mail-section {
+  background-color: #f71f3c;
+  padding: 100px;
+  margin: 20px 200px 30px;
+  text-align: center;
+}
+.mail-section input {
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn {
+  background-color: coral;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
 }
