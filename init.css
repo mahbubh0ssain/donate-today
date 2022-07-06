@@ -14,4 +14,20 @@ body {
   color: white;
   font-size: 50px;
   padding-top: 150px;
+  margin-bottom: 20px;
+}
+.header p {
+  text-align: center;
+  color: white;
+  padding: 0px 250px;
+  margin-bottom: 20px;
+}
+.header button {
+  background-color: coral;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  display: flex;
 }
