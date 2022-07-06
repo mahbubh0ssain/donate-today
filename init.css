@@ -83,3 +83,39 @@ hr {
   margin: auto;
   display: flex;
 }
+
+/* Donation pLanning */
+.planning h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.planning .parent {
+  display: flex;
+  padding: 60px;
+}
+.parent img {
+  height: 60px;
+  width: 60px;
+}
+.planning .parent .food {
+  background-color: burlywood;
+  border-radius: 15px;
+  width: 400px;
+  margin-right: 10px;
+  padding: 40px;
+}
+.planning .parent .shelter {
+  background-color: rgb(240, 149, 31);
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  margin-right: 10px;
+}
+.planning .parent .education {
+  background-color: rgb(24, 22, 189);
+  padding: 40px;
+  border-radius: 15px;
+  margin-right: 10px;
+  width: 400px;
+}
