@@ -121,6 +121,19 @@ hr {
   width: 400px;
 }
 
+/* donation so far section */
+
+.donationwemade {
+  text-align: center;
+  margin: 0 auto;
+}
+.donationwemade img {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 5px 5px 30px 5px;
+}
+
 /* update section */
 .updates h1 {
   text-align: center;
