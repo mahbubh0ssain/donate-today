@@ -1,6 +1,6 @@
-/* font-family: "Arima", cursive; */
 * {
   margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* Header section */
 }
 body .header {
@@ -14,10 +14,10 @@ body .header {
   text-align: center;
   color: white;
   font-size: 50px;
-  padding-top: 150px;
+  padding-top: 250px;
   margin-bottom: 20px;
 }
-.header p {
+.header h3 {
   text-align: center;
   color: white;
   padding: 0px 250px;
@@ -37,9 +37,9 @@ body .header {
 .donate h1 {
   margin-top: 50px;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
 }
-.donate p {
+.donate h4 {
   text-align: center;
   padding: 0px 250px;
   margin-bottom: 20px;
@@ -63,6 +63,7 @@ body .header {
 
 .donate .active-button {
   border: 5px solid #f71f3c;
+  background-color:rgb(255, 159, 124) ;
 }
 .donate input {
   text-align: center;
@@ -106,7 +107,7 @@ hr {
   margin-right: 10px;
   padding: 40px;
 }
-.planning .parent .shelter {
+.planning .parent .medicine {
   background-color: rgb(240, 149, 31);
   padding: 40px;
   border-radius: 15px;
@@ -144,8 +145,9 @@ hr {
 .mail-section {
   background-color: #f71f3c;
   padding: 100px;
-  margin: 40px 200px 40px;
+  margin: 40px 300px 40px;
   text-align: center;
+  border-radius: 5px;
 }
 .mail-section input {
   height: 32px;
