@@ -63,7 +63,7 @@ body .header {
 
 .donate .active-button {
   border: 5px solid #f71f3c;
-  background-color:rgb(255, 159, 124) ;
+  background-color: rgb(255, 159, 124);
 }
 .donate input {
   text-align: center;
@@ -150,16 +150,18 @@ hr {
   border-radius: 5px;
 }
 .mail-section input {
-  height: 32px;
-  border-radius: 4px;
+  height: 34px;
+  border-radius: 5px 0px 0px 5px;
   border: none;
+  margin-right: -4px;
 }
 
 .btn {
   background-color: coral;
   border: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -4px;
 }
 /* Footer section */
 footer {
