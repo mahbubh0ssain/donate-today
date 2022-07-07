@@ -97,6 +97,7 @@ hr {
 .parent img {
   height: 60px;
   width: 60px;
+  margin-bottom: 10px;
 }
 .planning .parent .food {
   background-color: burlywood;
@@ -113,7 +114,7 @@ hr {
   margin-right: 10px;
 }
 .planning .parent .education {
-  background-color: rgb(24, 22, 189);
+  background-color: rgb(89, 86, 245);
   padding: 40px;
   border-radius: 15px;
   margin-right: 10px;
@@ -130,7 +131,7 @@ hr {
 .mail-section {
   background-color: #f71f3c;
   padding: 100px;
-  margin: 20px 200px 30px;
+  margin: 40px 200px 40px;
   text-align: center;
 }
 .mail-section input {
